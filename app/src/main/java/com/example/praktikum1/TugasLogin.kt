@@ -25,7 +25,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun TugasLogin(modifier: Modifier = Modifier) {
+fun TugasLogin(modifier = Modifier.padding(innerPadding)) {
     val latar = painterResource(id = R.drawable.bg_barak)
     val logo = painterResource(id = R.drawable.logo_umy)
     val foto = painterResource(id = R.drawable.tni)
