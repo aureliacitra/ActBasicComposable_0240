@@ -106,3 +106,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .border(width = 4.dp, color = Color.White, shape = CircleShape)
                     .background(color = Color(0xFFE8E8F4))
             )
+        }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TugasLoginPreview() {
+    TugasLogin()
+}
