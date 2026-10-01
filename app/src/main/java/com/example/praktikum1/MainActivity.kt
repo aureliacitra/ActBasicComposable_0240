@@ -16,3 +16,5 @@ import com.example.mylayout.ui.theme.MyLayoutTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
+        setContent {
+            MyLayoutTheme {
