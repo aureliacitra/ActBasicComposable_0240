@@ -1,4 +1,4 @@
-package com.example.mylayout
+package com.example.praktikum1
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,13 +11,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat.enableEdgeToEdge
-import com.example.mylayout.ui.theme.MyLayoutTheme
-
+import com.example.praktikum1.ui.theme.Praktikum1Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
         setContent {
-            MyLayoutTheme {
+            Praktikum1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // Panggil composable layout utama dengan padding dari Scaffold
                     TataletakBoxColumnRow(
