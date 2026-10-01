@@ -70,3 +70,25 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .border(width = 4.dp, color = Color.White, shape = CircleShape)
                     .background(color = Color(0xFFE8E8F4))
             )
+
+            Spacer(modifier = Modifier.height(70.dp))
+
+            // Identitas
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+            Text(
+                text = "Aurelia Citra Pangukir",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+            Text(
+                text = "20240140240",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
