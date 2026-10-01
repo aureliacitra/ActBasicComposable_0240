@@ -26,9 +26,9 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
-    val latar = painterResource(id = R.drawable.bg_login)
+    val latar = painterResource(id = R.drawable.bg_barak)
     val logo = painterResource(id = R.drawable.logo_umy)
-    val foto = painterResource(id = R.drawable.foto_kabah)
+    val foto = painterResource(id = R.drawable.tni)
 
     Box(modifier = modifier.fillMaxSize()) {
         // Gambar latar
@@ -56,4 +56,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 text = "Ini adalah halaman login,",
                 fontSize = 14.sp,
                 color = Color.White
+            )
+            Spacer(modifier = Modifier.height(40.dp))
+
+            // Logo
+            Image(
+                painter = logo,
+                contentDescription = null,
+                contentScale = ContentScale.Fit,
+                modifier = Modifier.size(150.dp)
             )
