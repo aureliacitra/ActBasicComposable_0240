@@ -13,4 +13,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat.enableEdgeToEdge
 import com.example.mylayout.ui.theme.MyLayoutTheme
 
-class MainActivity : ComponentActivity() { }
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
