@@ -12,3 +12,5 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat.enableEdgeToEdge
 import com.example.mylayout.ui.theme.MyLayoutTheme
+
+class MainActivity : ComponentActivity() { }
