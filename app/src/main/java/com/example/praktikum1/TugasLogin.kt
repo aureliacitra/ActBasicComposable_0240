@@ -23,3 +23,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    val latar = painterResource(id = R.drawable.bg_login)
+    val logo = painterResource(id = R.drawable.logo_umy)
+    val foto = painterResource(id = R.drawable.foto_kabah)
