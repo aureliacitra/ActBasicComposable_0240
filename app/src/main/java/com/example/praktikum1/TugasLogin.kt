@@ -100,3 +100,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 painter = foto,
                 contentDescription = null,
                 contentScale = ContentScale.Fit,
+                modifier = Modifier
+                    .size(320.dp)
+                    .clip(CircleShape)
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape)
+                    .background(color = Color(0xFFE8E8F4))
+            )
