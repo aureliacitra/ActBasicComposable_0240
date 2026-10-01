@@ -92,3 +92,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // Foto bulat dengan border putih
+            Image(
+                painter = foto,
+                contentDescription = null,
+                contentScale = ContentScale.Fit,
